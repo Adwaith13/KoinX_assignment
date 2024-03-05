@@ -1,0 +1,14 @@
+.head{
+    display: flex;
+}
+
+.usdPriceChangeContainer{
+    display: flex;
+}
+
+.pricechangeUSD{
+    padding: 5px 20px;
+    background-color: #EBF9F4;
+    color: #14B079;
+    margin-left: 5%;
+}

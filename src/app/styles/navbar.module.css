@@ -1,0 +1,48 @@
+.navbar {
+  background: #ffffff;
+  width: 100vw;
+  height: 10vh;
+  border-bottom: 1px solid #dedfe2;
+  box-shadow: 0px 0px 12px 0px #1026490f;
+  display: flex;
+}
+
+.logoContainer {
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+.links {
+  display: flex;
+  width: 100vw;
+  margin-left: 44%;
+  margin-top: 1.8%;
+}
+
+.text {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  list-style-type: none;
+  margin-right: 4%;
+  margin-top: 1%;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12%;
+  margin-left: 3%;
+  height: 60%;
+  width: 19%;
+  padding: 15px 20px;
+  border: none;
+  font-size: 0.8rem;
+  color: white;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(81.62deg, #2870ea 8.72%, #1b4aef 85.01%);
+  border-radius: 7px;
+}
