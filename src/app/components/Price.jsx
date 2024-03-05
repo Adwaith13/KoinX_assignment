@@ -33,20 +33,30 @@ export default function Price() {
   return (
     <>
       <div className={styles.head}>
-        <Image src={BitcoinLogo} alt="Bitcoin-Logo"></Image>
+        <Image
+          src={BitcoinLogo}
+          className={styles.btcLogo}
+          alt="Bitcoin-Logo"
+        ></Image>
         <h1 className={styles.heading}>Bitcoin</h1>
         <span className={styles.symbol}>BTC</span>
+        <span className={styles.rank}>Rank #1</span>
       </div>
       {price && (
         <>
           <div className={styles.usdPriceChangeContainer}>
             <p className={styles.usdPrice}>${usdPrice}</p>
             <p className={styles.pricechangeUSD}>
-              <Image src={Polygon} alt="polygon"></Image>
+              <Image
+                src={Polygon}
+                className={styles.polygon}
+                alt="polygon"
+              ></Image>
               {priceChangeUSD.toFixed(2)}
             </p>
+            <p className={styles.hour}>(24H)</p>
           </div>
-          <p>₹{inrPrice}</p>
+          <p className={styles.inrPrice}>₹{inrPrice}</p>
         </>
       )}
     </>
