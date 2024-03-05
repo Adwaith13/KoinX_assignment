@@ -6,6 +6,7 @@ import BitcoinLogo from "../images/BTC.svg";
 import styles from "../styles/price.module.css";
 import Polygon from "../images/Polygon.svg";
 
+
 export default function Price() {
   const [price, setPrice] = useState(null);
 
@@ -31,7 +32,7 @@ export default function Price() {
   const priceChangeUSD = price?.usd_24h_change;
 
   return (
-    <>
+    <div className={styles.container}>
       <div className={styles.head}>
         <Image
           src={BitcoinLogo}
@@ -52,13 +53,13 @@ export default function Price() {
                 className={styles.polygon}
                 alt="polygon"
               ></Image>
-              {priceChangeUSD.toFixed(2)}
+              {priceChangeUSD.toFixed(2)}%
             </p>
             <p className={styles.hour}>(24H)</p>
           </div>
           <p className={styles.inrPrice}>₹{inrPrice}</p>
         </>
       )}
-    </>
+    </div>
   );
 }
