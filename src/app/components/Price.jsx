@@ -5,7 +5,7 @@ import Image from "next/image";
 import BitcoinLogo from "../images/BTC.svg";
 import styles from "../styles/price.module.css";
 import Polygon from "../images/Polygon.svg";
-
+import Chart from "./Chart";
 
 export default function Price() {
   const [price, setPrice] = useState(null);
@@ -60,6 +60,7 @@ export default function Price() {
           <p className={styles.inrPrice}>₹{inrPrice}</p>
         </>
       )}
+      <Chart />
     </div>
   );
 }

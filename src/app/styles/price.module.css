@@ -1,7 +1,7 @@
 .container {
   width: 53%;
   width: 60vw;
-  height: 40vh;
+  height: fit-content;
 }
 
 .head {

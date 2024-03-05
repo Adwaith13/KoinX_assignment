@@ -1,7 +1,8 @@
 .widgetContainer{
     display: flex;
     margin-left: 4.8%;
-    width: 62vw;
+    width: 65vw;
+    margin-top: 3%;
     height: 100vh;
 }
 

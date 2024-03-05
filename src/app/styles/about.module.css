@@ -1,0 +1,14 @@
+.container {
+  margin-top: 2%;
+  margin-left: 3%;
+  width: 62vw;
+  border: 1px solid white;
+  box-shadow: 0px 0px 12px 0px #01060e0f;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+.team {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
